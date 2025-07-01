@@ -3,7 +3,6 @@ name: Cinemark Notifier Playwright
 on:
   schedule:
     - cron: "* * * * *"
-  workflow_dispatch:
 
 jobs:
   run-playwright:
